@@ -12,7 +12,7 @@ $$R=\frac{V_{DD}}{2\cdot I_{sat}} \quad(1)$$
 
 $$R_{eff}=\frac{V_{DD}}{I_H+I_L} \quad(2)$$
 
-Los valores utilizados para los cálculos provienen de los parámetros de transistores de 1.8V (ne, pe) de un proceso XT018 de 0.18 $\mu$m. En estos cálculos, se desprecia $I_L$​ debido a que su valor es muy pequeño en comparación con otras corrientes en el circuito. Además, es importante señalar que para obtener las resistencias en ohmios, se multiplicaron las ecuaciones (1) y (2) por el ancho de los transistores.
+Los valores utilizados para los cálculos provienen de los parámetros de transistores de 1.8V (ne, pe) de un proceso XT018 de 0.18 $\mu$ m. En estos cálculos, se desprecia $I_L$​ debido a que su valor es muy pequeño en comparación con otras corrientes en el circuito. Además, es importante señalar que para obtener las resistencias en ohmios, se multiplicaron las ecuaciones (1) y (2) por el ancho de los transistores.
 
 **Para el transistor NMOS**
 Para la ecuación (1)
