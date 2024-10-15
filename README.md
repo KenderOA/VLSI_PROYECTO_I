@@ -52,6 +52,7 @@ $$\tau= \frac{3}{2}R_{eff_P}C \quad(5)$$
 ### Transistor NMOS
 
 **Cálculo de la capacitancia**
+
 Para determinar el valor de $C$ para el transistor NMOS se utilizó la ecuación (3).
 
 $$C = 0.36 \mu m \cdot 0.18 \mu m \cdot 8.46 \tfrac{fF}{\mu m^2} + 0.36 \mu m \cdot 0.33 \tfrac{fF}{\mu m} \approx 0.67 fF$$
