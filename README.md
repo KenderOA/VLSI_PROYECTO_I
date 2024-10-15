@@ -16,13 +16,17 @@ Los valores utilizados para los cálculos provienen de los parámetros de transi
 
 **Para el transistor NMOS**
 Para la ecuación (1)
+
 $$R_N=\frac{1.8V}{2 \cdot 475 \times 10^{-6}\frac{A}{\mu m} \cdot0.36 \mu m} \approx 5.2k \Omega$$
+
 Para la ecuación (2)
 
 $$R_{eff_N}=\frac{1.8V}{475 \times 10^{-6}\frac{A}{\mu m} \cdot0.36 \mu m} \approx 10.5 k\Omega$$
 
 **Para el transistor PMOS**
+
 Para la ecuación (1)
+
 $$R_P =\frac{1.8V}{2 \cdot 170 \times 10^{-6}\frac{A}{\mu m} \cdot0.72 \mu m} \approx 7.3k\Omega$$
 
 Para la ecuación (2)
