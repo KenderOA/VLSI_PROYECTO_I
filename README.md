@@ -4,9 +4,6 @@
 
 ### Parte 1.a. Determinación de las resistencias de canal de transistores mínimos NMOS y PMOS para el proceso XH018
 
-
-### Parte 1.b. Determinación de las capacitancias equivalentes que tiene el transistor de tamaño mínimo y constante RC para el proceso
-
 **Fórmula de la resistencia cuando el transistor está en saturación**
 
 $$R=\frac{V_{DD}}{2\cdot I_{sat}} \quad(1)$$
@@ -35,6 +32,8 @@ $$R_P =\frac{1.8V}{2 \cdot 170 \times 10^{-6}\frac{A}{\mu m} \cdot0.72 \mu m} \a
 Para la ecuación (2)
 
 $$R_{eff_P}=\frac{1.8V}{170 \times 10^{-6}\frac{A}{\mu m} \cdot0.72 \mu m} \approx 14.7 k\Omega$$
+
+### Parte 1.b. Determinación de las capacitancias equivalentes que tiene el transistor de tamaño mínimo y constante RC para el proceso
 
 Los valores para los siguientes cálculos se tomaron de los parámetros para transistores 1.8V (ne,pe) de un proceso XH018 - 18 $\mu$m.
 
