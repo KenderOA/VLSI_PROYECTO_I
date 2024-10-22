@@ -1,0 +1,35 @@
+
+
+.option post
+.option scale=90n
+
+*Parametros
+.temp 70
+.param SUPPLY=1.8
+
+*librerias
+.lib '/mnt/vol_NFS_rh003/Est_VLSI_II_2024/jquiros/tutorial/tarea1/Hspice/lp5mos/xt018.lib' tm
+.lib '/mnt/vol_NFS_rh003/Est_VLSI_II_2024/jquiros/tutorial/tarea1/Hspice/lp5mos/param.lib' 3s
+.lib '/mnt/vol_NFS_rh003/Est_VLSI_II_2024/jquiros/tutorial/tarea1/Hspice/lp5mos/config.lib' default
+
+*Subcircuito PMOS
+.subckt pmos g d P=8
+xm1 d g vdd! vdd! pe w='P' L=2
++ as='P*5' ad='P*5' ps='2*P+10' pd='2*P+10'
+.ends
+
+*Circuito de prueba
+.global vdd! gnd!
+
+*nmos
+Vgs  vdd! g SUPPLY
+Vds  vdd! gnd! 0 
+X1   g gnd! pmos 
+*---------------------------------------------------------------------- 
+* Stimulus
+*---------------------------------------------------------------------- 
+.dc Vds 0 2  0.05 SWEEP Vgs 0 SUPPLY 0.3
+
+.probe dc I(Vds)
+
+.end
