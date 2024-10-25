@@ -85,4 +85,12 @@ Para esta sección se diseña a nivel de esquematico, el NMOS de tamaño mínimo
 Para ello se obtuvo la función de fransferencia del inversor, donde se estima de maneara manual que el inversor debe tener PMOS 5 veces más area que el NMOS para que los parámetros Beta tengan una relación Bp/Bn = 1.
 ![image](https://github.com/user-attachments/assets/5a73812d-9a12-4e1a-8550-cc566db7d545)
 
+### Parte 2.b. Análisis $$tpdr$$ y $$tpdf$$ de fan out 4 de inversores con una relación PMOS/NMOS de 2/1
+Se construye un deck de SPICE donde nos intereza averiguar como la relación PMOS/NMOS afecta a tiempos de delay, para ello se parametriza el ancho de los componenetes para variarlos manualmente y optener un gráfica de $tpdr$
+ y $tpdf$ vs la relación entre los transistores. 
+ ![image](https://github.com/user-attachments/assets/2324b13a-5772-401a-ac23-73a75cb2bdd4)
+
+ Alternativamente se crea un optimizar y encontrar la relación entre tamaños que nos de la diferencia mínima entre los tiempos. Este dato resulta ser 109.6 ps cuando la realacio es 4.92:1 aproximadamente.
+ 
+ ![image](https://github.com/user-attachments/assets/8d981013-950f-4e54-a00d-b467505afa7f)
 
