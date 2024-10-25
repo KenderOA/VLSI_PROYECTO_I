@@ -75,3 +75,11 @@ $$C = 0.72 \mu m \cdot 0.18 \mu m \cdot 8.91 \tfrac{fF}{\mu m^2} + 0.72 \mu m \c
 Para determinar el valor de la constante **RC** para el transistor NMOS se utilizó la ecuación (X).
 
 $$\tau = \frac{3}{2} \cdot 14.7k\Omega \cdot 1.39 fF \approx  30.64 ps$$
+
+## Parte 2. Diseño de un inversor mínimo de tamaño óptimo
+
+### Parte 2.a. Inversor y NMOS mínimo permitido
+Para esta sección, primero se obtuvo la función de fransferencia del inversor. Donde se calcula de manera empírica la relación PMOS/NMOS cumpliendo un margen de ruido simétrico (punto de umbral o transición en VDD/2).
+![image](https://github.com/user-attachments/assets/5a73812d-9a12-4e1a-8550-cc566db7d545)
+
+
