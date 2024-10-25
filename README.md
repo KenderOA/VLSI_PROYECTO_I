@@ -79,10 +79,10 @@ $$\tau = \frac{3}{2} \cdot 14.7k\Omega \cdot 1.39 fF \approx  30.64 ps$$
 ## Parte 2. Diseño de un inversor mínimo de tamaño óptimo
 
 ### Parte 2.a. Inversor y NMOS mínimo permitido
-Para esta sección se diseña a nivel de esquematico manera empírica la relación PMOS/NMOS cumpliendo un margen de ruido simétrico (punto de umbral o transición en VDD/2).
+Para esta sección se diseña a nivel de esquematico, el NMOS de tamaño mínimo permitido por las reglas con un lambda de 90 nm, la relación dentro del transistor mínimo 4:2 lambda resulta en un ancho de NMOS de 360 nm y un largo de 180 nm. Además, se establece de manera empírica la relación PMOS/NMOS cumpliendo un margen de ruido simétrico (punto de umbral o transición en VDD/2).
 ![image](https://github.com/user-attachments/assets/3fb6f324-145c-4f9f-b6eb-1e99cec64ab5)
 
-Para ello se obtuvo la función de fransferencia del inversor, donde se estima de maneara manual que el inversor debe tener PMOS 5 veces más area que el NMOS para lograr un margen de ruido simétrico.
+Para ello se obtuvo la función de fransferencia del inversor, donde se estima de maneara manual que el inversor debe tener PMOS 5 veces más area que el NMOS para que los parámetros Beta tengan una relación Bp/Bn = 1.
 ![image](https://github.com/user-attachments/assets/5a73812d-9a12-4e1a-8550-cc566db7d545)
 
 
