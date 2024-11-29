@@ -90,7 +90,17 @@ Se construye un deck de SPICE donde nos intereza averiguar como la relación PMO
  y $tpdf$ vs la relación entre los transistores. 
  ![image](https://github.com/user-attachments/assets/2324b13a-5772-401a-ac23-73a75cb2bdd4)
 
+
  Alternativamente se crea un optimizar y encontrar la relación entre tamaños que nos de la diferencia mínima entre los tiempos. Este dato resulta ser 109.6 ps cuando la realacio es 4.92:1 aproximadamente.
  
  ![image](https://github.com/user-attachments/assets/8d981013-950f-4e54-a00d-b467505afa7f)
+
+### Parte 2.c. Calculo de la restencias experiemtales
+
+Con la siguinete ecuación se calcula las resistencia Rn y Rp
+
+![image](https://github.com/user-attachments/assets/71c2f6c0-c0e0-45ec-a8e4-f8206612ed4a)
+
+| $R_n (k\omega)$ | $R_p(k\omega)$ |
+|-------|-------|
 
