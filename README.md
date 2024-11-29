@@ -101,6 +101,8 @@ Con la siguinete ecuación se calcula las resistencia Rn y Rp
 
 ![image](https://github.com/user-attachments/assets/71c2f6c0-c0e0-45ec-a8e4-f8206612ed4a)
 
-| $R_n (k\omega)$ | $R_p(k\omega)$ |
+| $R_p (k\Omega)$ | $R_n(k\Omega)$ |
 |-------|-------|
+|7.064  | 4.504 | 
 
+Los cuales resultan estar cerca a los valoreas teóricos
