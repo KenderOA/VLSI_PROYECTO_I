@@ -1,5 +1,7 @@
 # VLSI_PROYECTO_I
 
+Kender Ortiz y Josué Quirós
+
 ## Parte 1. Determinación de las resistencias de canal de transistores mínimos NMOS y PMOS para el proceso XH018
 
 ### Parte 1.a. Determinación de las resistencias de canal de transistores mínimos NMOS y PMOS para el proceso XH018
